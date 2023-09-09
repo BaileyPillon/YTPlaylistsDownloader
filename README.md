@@ -2,6 +2,7 @@
 ![00004-1758643943](https://github.com/BaileyPillon/YTPlaylistsDownloader/assets/138253619/1ced8ad5-f6d2-4537-9f52-24eeaa872325)
 
 - Downloads a list of YouTube playlists using yt-dlp. Downloads the following: .mp4 file, .mp3 file, .json file with metadata, thumbnail in .webp format.
+- Tested on: Python 3.10.9 in a virtualenv, yt-dlp version: 2023.07.06, and ffmpeg version: 2023-09-07-git-9c9f48e7f2
 - The "playlist" link can be an actual playlist link but it can also point to specific channels and their videos page as a "playlist" link.
 - Embeds thumbnails to the .mp4 but not the .mp3. You can specify an output directory.
 - If it doesn't exist, it's created. Subfolders within that directory are created based upon the uploader and the relevant aforementioned files are downloaded into those subfolders systematically. This can be easily altered if you don't care for that.
@@ -10,7 +11,7 @@
 
 # INSPIRATION
 - Getting tired of YouTube deleting all my favorite YouTube videos (more specifically songs) on the reg.
-- Then just upload it to your mega account: mega.nz .
+- Then just upload it to your mega account: https://mega.nz
 
 # REQUIREMENTS
 - You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp, see here: https://pypi.org/project/yt-dlp/
@@ -24,7 +25,7 @@
 - Embed thumbnails to mp3 files, possibly convert mp4s to mp3s recursively using ffmpeg (it is a quick process) and modularize it in that sense.
 - Upload latest yt-dlp and ffmpeg files here.
 - Add parallelization (possibly) and general optimization.
-- Add mroe params and make it customizable via CLI.
+- Add more params and make it customizable via CLI.
 - Requirements.txt (but there isn't much of one...)
 - Authentication for private playlists and obfuscation of credentials.
 - Automated uploading of .mp3 files to AWS account S3 bucket and transcription of .mp3 files.

@@ -13,7 +13,8 @@ def download_playlists(playlist):
     output_folder = r'C:\path\to\directory'
     
     ydl_opts = {
-            "format": "bestvideo[ext=mp4]+bestaudio[ext=mp4a]/best[ext=mp4]", 
+            #"format": "bestvideo[ext=mp4]+bestaudio[ext=mp4a]/best[ext=mp4]", 
+            "format": "bestvideo+bestaudio/best",
             "ignoreerrors": True,
             "nooverwrites": True,
             "writethumbnail": True,

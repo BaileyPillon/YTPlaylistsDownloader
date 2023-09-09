@@ -7,7 +7,7 @@
 - Above image created with stable diffusion.
 
 # INSPIRATION
-- Getting tired of YouTube deleting all my favorite YouTube videos on the reg.
+- Getting tired of YouTube deleting all my favorite YouTube videos (more specifically songs) on the reg.
 - Then just upload it to your mega account.
 
 # REQUIREMENTS

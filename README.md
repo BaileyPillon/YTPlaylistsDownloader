@@ -8,6 +8,7 @@
 
 # INSPIRATION
 - Getting tired of YouTube deleting all my favorite YouTube videos on the reg.
+- Then just upload it to your mega account.
 
 # REQUIREMENTS
 - You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp.

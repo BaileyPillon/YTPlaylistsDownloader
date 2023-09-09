@@ -23,4 +23,5 @@
 - Upload latest yt-dlp and ffmpeg files here.
 - Add parallelization (possibly) and general optimization.
 - Requirements.txt (but there isn't much of one...)
+- Authentication for private playlists and obfuscation of credentials.
 - Taking suggestions.

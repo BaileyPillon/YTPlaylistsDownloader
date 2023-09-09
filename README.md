@@ -25,4 +25,5 @@
 - Add parallelization (possibly) and general optimization.
 - Requirements.txt (but there isn't much of one...)
 - Authentication for private playlists and obfuscation of credentials.
+- Automated uploading of .mp3 files to AWS account S3 bucket and transcription of .mp3 files.
 - Taking suggestions.

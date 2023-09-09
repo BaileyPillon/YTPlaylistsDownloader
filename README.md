@@ -7,12 +7,16 @@
 - Above image created with stable diffusion.
 
 # REQUIREMENTS
-You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp.
+- You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp.
+- ffmpeg can be downloaded here: https://ffmpeg.org/download.html directly or via source code and github repo (linked at the same location).
+- yt-dlp can be downloaded here: https://github.com/yt-dlp/yt-dlp/releases
+- yt-dlp is a fork of YouTubeDownloader.
 
 # TO DO
 - Ensure subtitles/captions are embedded and/or downloaded separately, if any exist.
 - Scrape metadata for deleted or privated video (this can actually be done with few exceptions).
 - Embed thumbnails to mp3 files, possibly convert mp4s to mp3s recursively using ffmpeg (it is a quick process) and modularize it in that sense.
 - Upload latest yt-dlp and ffmpeg files here.
+- Add parallelization (possibly).
 - Requirements.txt (but there isn't much of one...)
 - Taking suggestions.

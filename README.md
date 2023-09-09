@@ -5,6 +5,7 @@
 - The "playlist" link can be an actual playlist link but it can also point to specific channels and their videos page as a "playlist" link.
 - Embeds thumbnails to the .mp4 but not the .mp3. You can specify an output directory.
 - If it doesn't exist, it's created. Subfolders within that directory are created based upon the uploader and the relevant aforementioned files are downloaded into those subfolders systematically. This can be easily altered if you don't care for that.
+- It will download the highest quality video for video and audio given by: "format": "bestvideo+bestaudio/best" then merge it into an .mp4. If you don't want the highest quality available then comment that out and subtitute with "format": "bestvideo[height<=?1080][ext=mp4]+bestaudio[ext=m4a]/best[ext=mp4]" - this will download the best quality videos up to 1080p (if available) and may be modified to 720, 1440, or 2160. In practice, I think excluding "[ext=m4a]" next to bestaudio might be better, but I'm not currenlt sure.
 - Above image created with stable diffusion.
 
 # INSPIRATION
@@ -23,6 +24,7 @@
 - Embed thumbnails to mp3 files, possibly convert mp4s to mp3s recursively using ffmpeg (it is a quick process) and modularize it in that sense.
 - Upload latest yt-dlp and ffmpeg files here.
 - Add parallelization (possibly) and general optimization.
+- Add mroe params and make it customizable via CLI.
 - Requirements.txt (but there isn't much of one...)
 - Authentication for private playlists and obfuscation of credentials.
 - Automated uploading of .mp3 files to AWS account S3 bucket and transcription of .mp3 files.

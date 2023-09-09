@@ -40,5 +40,5 @@ def download_playlists(playlist):
 if __name__ == "__main__":
     for playlist in playlist_url:
         download_playlists(playlist)
-        print("Done wuth one playlist!")
-    print("Done wuth all playlists!")
+        print("Done with one playlist!")
+    print("Done with all playlists!")

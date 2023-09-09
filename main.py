@@ -15,6 +15,7 @@ def download_playlists(playlist):
     ydl_opts = {
             #"format": "bestvideo[ext=mp4]+bestaudio[ext=mp4a]/best[ext=mp4]", 
             "format": "bestvideo+bestaudio/best",
+            "merge_output_format": "mp4",
             "ignoreerrors": True,
             "nooverwrites": True,
             "writethumbnail": True,

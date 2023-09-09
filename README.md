@@ -14,10 +14,10 @@
 - Then just upload it to your mega account: https://mega.nz
 
 # REQUIREMENTS
-- You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp, see here: https://pypi.org/project/yt-dlp/
+- You just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp, see here: https://pypi.org/project/yt-dlp/
+- ffmpeg can be downloaded here: https://ffmpeg.org/download.html directly or via source code and github repo (linked at the same location).
 - yt-dlp can be downloaded directly here: https://github.com/yt-dlp/yt-dlp/releases
 - yt-dlp is a fork of YouTubeDownloader (yt-dl)
-- ffmpeg can be downloaded here: https://ffmpeg.org/download.html directly or via source code and github repo (linked at the same location).
   
 # TO DO
 - Ensure subtitles/captions are embedded and/or downloaded separately, if any exist.

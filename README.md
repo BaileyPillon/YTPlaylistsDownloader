@@ -1,7 +1,10 @@
 # YTPlaylistsDownloader
 ![00004-1758643943](https://github.com/BaileyPillon/YTPlaylistsDownloader/assets/138253619/1ced8ad5-f6d2-4537-9f52-24eeaa872325)
 
-Downloads a list of YouTube playlists using yt-dlp. Downloads the following: .mp4 file, .mp3 file, .json file with metadata, thumbnail in .webp format. Embeds thumnails to the .mp4 but not the .mp3. You can specify an output directory. If it doesn't exist, it's created. Subfolders within that directory are created based upon the uploader and the relevant aforementioned files are downloaded into those subfolders systematically. This can be easily altered if you don't care for that.
+- Downloads a list of YouTube playlists using yt-dlp. Downloads the following: .mp4 file, .mp3 file, .json file with metadata, thumbnail in .webp format.
+- Embeds thumnails to the .mp4 but not the .mp3. You can specify an output directory.
+- If it doesn't exist, it's created. Subfolders within that directory are created based upon the uploader and the relevant aforementioned files are downloaded into those subfolders systematically. This can be easily altered if you don't care for that.
+- Above image created with stable diffusion.
 
 # REQUIREMENTS
 You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp.

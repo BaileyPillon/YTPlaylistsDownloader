@@ -11,7 +11,7 @@
 - Then just upload it to your mega account.
 
 # REQUIREMENTS
-- You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp.
+- You can just need ffmpeg (and related files) plus yt-dlp which can be installed via pip install yt-dlp, see here: https://pypi.org/project/yt-dlp/
 - ffmpeg can be downloaded here: https://ffmpeg.org/download.html directly or via source code and github repo (linked at the same location).
 - yt-dlp can be downloaded here: https://github.com/yt-dlp/yt-dlp/releases
 - yt-dlp is a fork of YouTubeDownloader.

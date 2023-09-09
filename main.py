@@ -9,8 +9,8 @@ playlist_url = ['playlist1',
                 ]
                 
 def download_playlists(playlist):
-    output_folder = os.makedirs(r'N:\YTPlaylists\JuiceWRLD 999', exist_ok=True)
-    output_folder = r'N:\YTPlaylists\JuiceWRLD 999'
+    output_folder = os.makedirs(r'C:\path\to\directory', exist_ok=True)
+    output_folder = r'C:\path\to\directory'
     
     ydl_opts = {
             "format": "bestvideo[ext=mp4]+bestaudio[ext=mp4a]/best[ext=mp4]", 
